@@ -1,0 +1,96 @@
+/* muy pequeño*/
+@media only screen and (max-width:600px){
+	a #logo{
+		display:none;
+	}
+	nav{
+		height:40px;
+		text-align: left;
+	}
+	#reserva{
+		position: fixed;
+		width: 70px;
+		height: 30px;
+		top: 0;
+		left: 85vw;
+		z-index: 1;
+	}
+	#reserva:hover{
+		width: 170px;
+		height: 50px;
+	}
+	main{
+		margin-top:40px;
+	}
+	#recamara{
+		height:50vh;
+	}
+	.transparente{
+		width:50%;
+		height:50vh;
+		bottom:50vh;
+		text-align:left;
+	}
+	.res{
+		width: 30%;
+		padding-top:20px;
+	}
+	#submit{
+		margin-left:30px;
+	}
+	#contrecamaras{
+		margin-top:-250px;
+	}
+}
+/**************************************************************/
+/* pequeño*/
+@media only screen and(max-width:768px){
+	a #logo{
+		display:none;
+	}
+	h1{
+		color:red;
+		font-size:30px;
+	}
+	/* mediano */
+	#m{
+		display:block;
+	}
+	#recamara{
+		height:50vh;
+	}
+	#reserva{
+		left:75vw;
+	}
+	.transparente{
+		width:100%;
+		height:35vh;
+		bottom:35vh;
+		text-align:left;
+	}
+	.res{
+		width: 30%;
+		padding-top:20px;
+	}
+	#submit{
+		margin-left:30px;
+	}
+	#contrecamaras{
+		margin-top:-250px;
+	}
+}
+/**************************************************************/
+/* mediano */
+@media only screen and(max-width:992px){
+	#reserva{
+		left:75vw;
+	}
+	#recamara{
+		height:50vh;
+	}
+}
+/**************************************************************/
+
+@media only screen and(max-width:1200px){
+
+}
